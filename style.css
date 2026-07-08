@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:url("https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1500") center center;
+    background-size:cover;
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+}
+
+.overlay{
+
+    background:rgba(0,0,0,.75);
+
+    padding:40px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    width:500px;
+
+    box-shadow:0 0 30px black;
+
+}
+
+img{
+
+    width:220px;
+
+    margin:20px 0;
+
+}
+
+h1{
+
+    color:#ffd700;
+    margin-bottom:20px;
+
+}
+
+#contador{
+
+    font-size:2rem;
+    margin:20px 0;
+
+}
+
+#mensaje{
+
+    font-size:20px;
+
+}
