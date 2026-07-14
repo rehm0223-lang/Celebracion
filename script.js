@@ -2,7 +2,7 @@ const contador = document.getElementById("contador");
 const mensaje = document.getElementById("mensaje");
 const invitacion = document.getElementById("invitacion");
 
-const fechaCumple = new Date("2026-07-13T00:00:00");
+const fechaCumple = new Date("2027-07-13T00:00:00");
 
 function actualizar(){
 
